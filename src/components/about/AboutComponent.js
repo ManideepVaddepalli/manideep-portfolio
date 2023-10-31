@@ -22,19 +22,19 @@ export default function AboutComponent() {
             📍 A dedicated Full-stack Developer based in Hyderabad, India
           </h2>
           <p>
-            Hello! I'm Manideep, a budding Full Stack MERN Developer. 🚀 With
-            skills in HTML, CSS, JavaScript, and the MERN stack, I'm eager to
-            dive into real-world challenges.
+            Hello! I&apos;m Manideep, a budding Full Stack MERN Developer. 🚀
+            With skills in HTML, CSS, JavaScript, and the MERN stack, I&apos;m
+            eager to dive into real-world challenges.
           </p>
           <p>
-            While new to the professional world, I'm adept at navigating the
-            nuances of web development. I'm adaptable 🌐, an effective
+            While new to the professional world, I&apos;m adept at navigating
+            the nuances of web development. I&apos;m adaptable 🌐, an effective
             communicator 🗣️, and a team player. My focus? Problem-solving,
             attention to detail 🔍, and commitment to timelines ⏳.
           </p>
           <p>
             Seeking fresh tech talent with both technical prowess and a
-            team-first approach? Let's connect and explore synergies! 🌟
+            team-first approach? Let&apos;s connect and explore synergies! 🌟
           </p>
         </div>
       </div>
