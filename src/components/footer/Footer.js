@@ -8,7 +8,7 @@ const poppins = localFont({
   src: "../../fonts/Poppins-Light.ttf",
 });
 
-export default function () {
+export default function Footor() {
   return (
     <div className="total-footer-container">
       <h5 className={poppins.className}>
