@@ -1,0 +1,167 @@
+.total-home-section-container {
+  min-height: 100vh;
+  padding: clamp(1.125rem, 0.574rem + 2.715vw, 1.875rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+.top-home-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.right-blob-home-container {
+  display: flex;
+  margin: 2em 0px;
+  justify-content: center;
+  align-items: center;
+}
+.total-blob-animation {
+  align-self: center;
+  aspect-ratio: 1/1;
+  width: 100%;
+  min-width: 250px;
+  max-width: 350px;
+  border: 2px solid black;
+  background-size: cover;
+  background-position: center center;
+  transition: all 5s;
+  filter: brightness(1.12) contrast(1.12);
+  animation: blobanimate 20s ease-in-out infinite;
+  background-image: url("../../images/passportsizepic.jpeg");
+}
+@keyframes blobanimate {
+  0%,
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  25% {
+    border-radius: 79% 21% 52% 48% / 36% 28% 72% 64%;
+  }
+  50% {
+    border-radius: 60% 40% 26% 74% / 62% 79% 21% 38%;
+  }
+  75% {
+    border-radius: 43% 57% 79% 21% / 73% 79% 21% 27%;
+  }
+}
+.left-designation-home-container {
+  margin: 1em 0px;
+  display: flex;
+  flex-direction: column;
+}
+.left-designation-home-container > h1 {
+  margin: 1em 0em;
+  display: flex;
+  justify-content: center;
+  font-size: 46px;
+  align-items: center;
+  flex-direction: row;
+}
+.left-designation-home-container > h1 > img {
+  height: 50px;
+  width: 50px;
+  margin-left: 1em;
+}
+.left-designation-home-container > p {
+  letter-spacing: 0.025em;
+  margin: 1em 0em;
+  text-align: center;
+}
+.socials-home-container {
+  display: flex;
+  justify-content: center;
+}
+.socials-home-container > a {
+  color: black;
+  margin: 1em 0.5em;
+  transition: 0.4s;
+}
+.socials-home-container > a > svg {
+  height: clamp(2rem, 1.816rem + 0.905vw, 2.25rem);
+  width: clamp(2rem, 1.816rem + 0.905vw, 2.25rem);
+  /* height: 36px;
+  width: 36px; */
+}
+.socials-home-container > a:hover {
+  color: rgb(7, 153, 211);
+}
+.bottom-home-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.tech-stack-title-container-home {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+.tech-stack-title-container-home > h3 {
+  margin: 0.35em 0em;
+}
+.icons-home-container {
+  margin: 2.5em 0em 1em 0em;
+  display: flex;
+}
+.icons-home-container > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.icons-home-container > ul > li {
+  margin: 0.5em 0.5em;
+  transition: 0.5s;
+  aspect-ratio: 1;
+  height: 48px;
+}
+.icons-home-container > ul > li > img {
+  height: 100%;
+  width: 100%;
+}
+.icons-home-container > ul > li:hover {
+  transform: translateY(-20px);
+}
+@media (min-width: 1024px) {
+  .top-home-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .left-designation-home-container {
+    justify-content: flex-start;
+  }
+  .left-designation-home-container > h1 {
+    justify-content: flex-start;
+  }
+  .left-designation-home-container > p {
+    text-align: left;
+  }
+  .socials-home-container {
+    justify-content: flex-start;
+  }
+  .socials-home-container > a {
+    margin: 1em 2em 1em 0em;
+  }
+  .bottom-home-container {
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0em;
+    flex-direction: row;
+  }
+  .tech-stack-title-container-home {
+    flex-direction: row;
+    margin: 0 1em 0 0;
+  }
+  .tech-stack-title-container-home > h3 {
+    margin: 0 1.5em 0 0;
+  }
+  .icons-home-container {
+    margin: 0;
+  }
+  .right-blob-home-container {
+    margin-left: 2em;
+  }
+}

@@ -1,0 +1,31 @@
+.total-contact-container {
+  min-height: 100vh;
+  padding: clamp(1.125rem, 0.574rem + 2.715vw, 1.875rem);
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  flex-direction: column;
+}
+.total-contact-container > h3 {
+  color: #0799d3;
+  font-size: 18px;
+}
+.total-contact-container > h2 {
+  font-size: 24px;
+  margin: 1em 0em;
+}
+.socials-contact-container {
+  display: flex;
+  margin: 1em 0em;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.single-social-contact {
+  display: flex;
+  padding: 0.5em;
+  margin: 0 1em;
+}
+.right-social-contact {
+  margin-left: 1em;
+  font-size: 16px;
+}

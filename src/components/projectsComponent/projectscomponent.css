@@ -1,0 +1,41 @@
+.total-projects-component-container {
+  padding: clamp(1.125rem, 0.574rem + 2.715vw, 1.875rem);
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  min-height: 100vh;
+}
+.total-projects-component-container > h4 {
+  color: rgb(7, 153, 211);
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.total-projects-component-container > h2 {
+  font-size: 24px;
+}
+.total-projects-cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em 0em;
+}
+.view-more-button-projects {
+  align-self: center;
+  padding: 0.5em 1.5em;
+  background-color: black;
+  color: white;
+  border-radius: 2em;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: 0.4s;
+}
+.view-more-button-projects:hover {
+  background-color: white;
+  color: black;
+}
+@media (min-width: 1024px) {
+}

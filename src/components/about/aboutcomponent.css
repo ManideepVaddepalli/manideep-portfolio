@@ -1,0 +1,56 @@
+.total-aboutme-section-component {
+  padding: clamp(1.125rem, 0.574rem + 2.715vw, 1.875rem);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+.total-center-about-container {
+  display: flex;
+  flex-direction: column;
+}
+.left-image-about-container {
+  background-image: url("../../images/aboutmeImg.jpg");
+  width: 100%;
+  max-width: 500px;
+  margin: 1em 0em;
+  aspect-ratio: 1/1;
+  align-self: center;
+  background-size: cover;
+  border-radius: 2em;
+}
+.right-text-about-container {
+  max-width: 500px;
+  margin-top: 2em;
+  width: 100%;
+}
+.right-text-about-container > h4 {
+  color: rgb(7, 153, 211);
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+.right-text-about-container > h2 {
+  font-size: 24px;
+}
+.right-text-about-container > p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 1em;
+}
+@media (min-width: 1024px) {
+  .total-center-about-container {
+    flex-direction: row;
+  }
+  .left-image-about-container {
+    width: 40%;
+    max-width: none;
+    margin: 0em 2em 0 0;
+  }
+  .right-text-about-container {
+    margin-top: 0;
+    max-width: none;
+    width: 50%;
+  }
+}
