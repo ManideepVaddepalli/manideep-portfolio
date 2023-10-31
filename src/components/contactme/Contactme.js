@@ -13,7 +13,7 @@ export default function Contactme() {
       className={`${poppins.className} total-contact-container`}
     >
       <h3>CONTACT</h3>
-      <h2>Don't be shy! Hit me up! 👇</h2>
+      <h2>Don&apos;t be shy! Hit me up! 👇</h2>
       <div className="socials-contact-container">
         <div className="single-social-contact">
           <svg

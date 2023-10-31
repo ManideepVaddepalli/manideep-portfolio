@@ -27,8 +27,8 @@ export default function HomeComponent() {
           <div className="left-designation-home-container">
             <h1>Full - Stack Developer 👋🏻</h1>
             <p>
-              Hi, I'm Manideep Vaddepalli. A passionate Full-Stack JavaScript
-              Developer based in Hyderabad, India. 📌
+              Hi, I&apos;m Manideep Vaddepalli. A passionate Full-Stack
+              JavaScript Developer based in Hyderabad, India. 📌
             </p>
             <div className="socials-home-container">
               <Link href="https://www.linkedin.com/in/manideep-vaddepalli/">
