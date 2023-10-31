@@ -4,7 +4,7 @@ import teamImage from "@/images/teamApp.png";
 import todoImage from "@/images/todoApp.png";
 import adviceImage from "@/images/adviceGeneratorApp.png";
 
-export default [
+export const data = [
   {
     id: 1,
     title: "SHOP.CO E-Commerce 👕",

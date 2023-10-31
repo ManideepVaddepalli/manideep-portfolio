@@ -1,7 +1,7 @@
 "use client";
 import localFont from "next/font/local";
 import React, { useState } from "react";
-import data from "@/components/data";
+import { data } from "@/components/data";
 import CardComponent from "../cardComponent/CardComponent";
 import "./projectscomponent.css";
 const poppinsBlack = localFont({
